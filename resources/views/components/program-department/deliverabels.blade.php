@@ -1,6 +1,6 @@
 <div class="user_create_department">
 
-    <div class="container p-0">
+    <div class="containers p-0">
         <div class="user-create-section mt-4">
             <!-- Top Buttons -->
             <div class="user-create-section-btn d-flex align-items-center"

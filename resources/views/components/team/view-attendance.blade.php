@@ -1,5 +1,5 @@
  <div class="ViewAttendanceMains">
-     <div class="container p-0">
+     <div class="containers p-0">
          <div class="ViewAttendanceMain">
              <div class="csr-registration-main-heading">
 

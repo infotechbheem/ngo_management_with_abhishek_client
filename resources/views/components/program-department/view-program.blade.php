@@ -43,6 +43,13 @@
                                         <li><span style="color:#8E44AD;">●</span> Kochi 20%</li>
                                         <li><span style="color:#E67E22;">●</span> Lucknow 20%</li>
                                     </ul>
+                                    <div class="next-prev-btn">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="fa-solid fa-angle-left"></i>
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
                                 </div>
 
 
@@ -72,6 +79,13 @@
                                         <li><span style="color:#8E44AD;">●</span> Kerla 20%</li>
                                         <li><span style="color:#E67E22;">●</span> Uttar Pradesh 20%</li>
                                     </ul>
+                                    <div class="next-prev-btn">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="fa-solid fa-angle-left"></i>
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
 
                                 </div>
                             </div>
@@ -178,6 +192,13 @@
                                         <li><span style="color:#8E44AD;">●</span>Roshani</li>
                                         <li><span style="color:#E67E22;">●</span>Kalpana</li>
                                     </ul>
+                                    <div class="next-prev-btn">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="fa-solid fa-angle-left"></i>
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
 
                                 </div>
                             </div>

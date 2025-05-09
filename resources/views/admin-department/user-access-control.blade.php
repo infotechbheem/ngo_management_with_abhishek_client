@@ -30,16 +30,58 @@
         .scr-registration-form .scr-registration-heading {
             margin-top: 10px
         }
+
+
+        .access-control-options-main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .access-control-options-main .access-control-options {
+            display: flex;
+            align-items: center !important;
+        }
+
+        .access-option-dropdown {
+            width: 220px;
+            padding: 10px;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .access-option-dropdown:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+            outline: none;
+            background-color: #fff;
+        }
     </style>
 
     @include('components.breadcrumb')
 
     <div class="scr-registration-section">
-        <div class="container p-0">
+        <div class="containers p-0">
             <div class="csr-registration-main-heading">
                 <p>Assign Access Control To User</p>
             </div>
             <form class="scr-registration-form">
+                <div class="access-control-options-main">
+                    <div class="access-control-options">
+                        <label for="user-type">User Type</label>
+                        <select id="user-type" name="user-type" class="access-option-dropdown">
+                            <option value="" disabled selected>Select a user type</option>
+                            <option value="admin">Program Department</option>
+                            <option value="editor">Hr Department</option>
+                            <option value="viewer">Finance Department</option>
+                        </select>
+                    </div>
+                </div>
+
+
+
                 <h3 class="scr-registration-heading">User Department</h3>
                 <div class="access-control-options">
                     <label class="access-option">

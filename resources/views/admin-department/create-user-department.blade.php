@@ -2,11 +2,18 @@
 
 @section('main_container')
     <link rel="stylesheet" href="{{ asset('asset/css/admin-department.css') }}">
+    <style>
+        .table-section-main {
+            display: flex;
+            gap: 20px;
+
+        }
+    </style>
 
     @include('components.breadcrumb')
     <div class="user_create_department">
 
-        <div class="container p-0">
+        <div class="containers p-0">
             <div class="user-create-section mt-4">
                 <!-- Top Buttons -->
                 <div class="user-create-section-btn">
@@ -22,7 +29,7 @@
 
                 </div>
                 <!-- Tables Section -->
-                <div class="table-section-main">
+                <div class="table-section-main" style="padding: 20px">
                     <div class="cards">
                         <div class="card-body p-0">
                             <table class="table table-bordered mb-0">
